@@ -289,6 +289,10 @@ p {
 .text-center {
   text-align: center !important;
 }
+.content p {
+  font-size: 14px;
+}
+
 div {
   display: block;
 }
