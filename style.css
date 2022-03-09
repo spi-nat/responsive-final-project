@@ -48,7 +48,9 @@ h2 {
   text-align: center;
   margin: 0;
 }
-
+.col {
+  flex: 1 0 0%;
+}
 .hero h1 {
   font-size: 96px;
   color: black;
@@ -58,6 +60,14 @@ h2 {
   display: block;
 }
 
+.btn-branding-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 .hero h3 {
   font-family: var(--heading-font-family);
   font-weight: normal;
@@ -67,24 +77,7 @@ h2 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  border-radius: 0.25rem;
-}
+
 .btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
@@ -102,37 +95,6 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.7;
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
 }
 
 .about-paragraphs {
@@ -164,9 +126,7 @@ p {
 .col {
   flex: 1 0 0%;
 }
-.project-description {
-  padding: 120px 60px;
-}
+
 .mb-5 h2 {
   font-size: 64px;
 }
@@ -295,6 +255,7 @@ p {
 }
 .text-center {
   text-align: center !important;
+  font-weight: bolder;
 }
 .content p {
   font-size: 14px;
