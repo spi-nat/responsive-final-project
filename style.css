@@ -18,8 +18,16 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
-.navbar {
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
+.active a {
+  color: var(--primary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -36,9 +44,7 @@ body {
 h2 {
   font-size: 64px;
 }
-.hero h1,
-h2,
-h3 {
+.hero h1 {
   text-align: center;
   margin: 0;
 }
@@ -285,16 +291,13 @@ p {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
+  font-weight: bold;
 }
 .text-center {
   text-align: center !important;
 }
 .content p {
   font-size: 14px;
-}
-
-div {
-  display: block;
 }
 @media (max-width: 900px) {
   .hero h1 {
