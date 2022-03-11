@@ -205,9 +205,6 @@ p {
   flex-wrap: wrap;
   max-width: 100%;
   width: 100%;
-  
-.col {
-  flex: 1 0 0%;
 }
 
 .mb-5 h2 {
@@ -231,10 +228,10 @@ img {
   border-radius: 0.25rem;
 }
 .content h3 {
-    font-size: 24px;
-    line-height: 1.5;
-    font-family: var(--default-font-family);
-    font-size: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+  font-size: bold;
 }
 .col-sm-4 {
   flex: 0 0 auto;
@@ -319,8 +316,8 @@ img {
   line-height: 80px;
 }
 .content h1 {
-    font-size: 64px;
-    line-height: 80px;
+  font-size: 64px;
+  line-height: 80px;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -350,7 +347,7 @@ img {
   font-weight: bold;
 }
 .content p {
-    font-size: 14px;
+  font-size: 14px;
 }
 .text-center {
   text-align: center !important;
@@ -411,5 +408,5 @@ img {
     flex: content;
     text-align: center;
     display: block;
-}
+  }
 }
